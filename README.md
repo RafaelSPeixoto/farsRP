@@ -21,3 +21,6 @@ The fars_map_state plots the location of the fatalities in the selected state ma
 # The location of the fatalities in the state of code 1 and the year of 2014.
 fars_map_state(1, 2014)
 ```
+
+## Travis CI Badge
+[![Build Status](https://travis-ci.com/RafaelSPeixoto/farsRP.svg?branch=master)](https://travis-ci.com/RafaelSPeixoto/farsRP)
