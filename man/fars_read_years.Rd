@@ -18,6 +18,8 @@ the year and select the month and the year. Return an error if the year is
 not valid. The files must be in the working directory.
 }
 \examples{
+\dontrun{
 fars_read_years(c(2014, 2015))
+}
 
 }

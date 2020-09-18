@@ -12,7 +12,9 @@
 #' @importFrom tidyr spread
 #'
 #' @examples
+#' \dontrun{
 #' fars_summarize_years(c(2014, 2015))
+#' }
 #'
 #' @export
 fars_summarize_years <- function(years) {
@@ -39,7 +41,9 @@ fars_summarize_years <- function(years) {
 #' @importFrom graphics points
 #'
 #' @examples
+#' \dontrun{
 #' fars_map_state(1, 2014)
+#' }
 #'
 #' @export
 fars_map_state <- function(state.num, year) {

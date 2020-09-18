@@ -1,4 +1,4 @@
-    Package: farsRP
+Package: farsRP
 Type: Package
 Title: Analysis of Fatality Analysis Reporting System (FARS) data
 Version: 0.1.0

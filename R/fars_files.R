@@ -11,7 +11,9 @@
 #' @importFrom dplyr tbl_df
 #'
 #' @examples
+#' \dontrun{
 #' fars_read(fars_data.csv)
+#' }
 fars_read <- function(filename) {
   if(!file.exists(filename))
     stop("file '", filename, "' does not exist")
@@ -31,7 +33,9 @@ fars_read <- function(filename) {
 #' @return a character representing the name of the file.
 #'
 #' @examples
+#' \dontrun{
 #' make_filename(2014)
+#' }
 make_filename <- function(year) {
   year <- as.integer(year)
   sprintf("accident_%d.csv.bz2", year)
@@ -50,7 +54,9 @@ make_filename <- function(year) {
 #' @importFrom dplyr mutate select
 #'
 #' @examples
+#' \dontrun{
 #' fars_read_years(c(2014, 2015))
+#' }
 #'
 #' @export
 fars_read_years <- function(years) {

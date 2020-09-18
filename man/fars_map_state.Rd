@@ -19,6 +19,8 @@ not valid or if there are not any cases in the state. Longituds greater than
 in the working directory.
 }
 \examples{
+\dontrun{
 fars_map_state(1, 2014)
+}
 
 }

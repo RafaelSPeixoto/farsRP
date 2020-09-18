@@ -18,6 +18,8 @@ represented as rows and the years as columns.  The files must be in the
 working directory.
 }
 \examples{
+\dontrun{
 fars_summarize_years(c(2014, 2015))
+}
 
 }

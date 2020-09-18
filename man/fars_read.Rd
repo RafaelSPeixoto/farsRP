@@ -17,5 +17,7 @@ Read the fars data file in csv format. Return an error if the file does not
 exist.
 }
 \examples{
+\dontrun{
 fars_read(fars_data.csv)
+}
 }

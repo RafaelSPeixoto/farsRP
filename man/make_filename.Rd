@@ -17,5 +17,7 @@ Create the file name from the year passed to the function using the format
 accident_year.csv.bz2.
 }
 \examples{
+\dontrun{
 make_filename(2014)
+}
 }
