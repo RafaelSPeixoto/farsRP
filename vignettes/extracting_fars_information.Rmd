@@ -26,13 +26,13 @@ year. The data can be found in the [NHTSA website](https://www.nhtsa.gov/Data/Fa
 
 ## Summarizing data from many years
 To show the amount of fatalities in each month of one or many years the fars_summarize_years function can be used. It receives a vector containing the years that will be presented in the summary and returns a table with the amount 
-of accidents in each month.
+of accidents each month.
 ```{r}
 # Amount of fatalities per month in the years of 2014 and 2015.
 fars_summarize_years(c(2014, 2015))
 ```
 
-## Ploting data for a specific state and year
+## Plotting data for a specific state and year
 The fars_map_state plots the location of the fatalities in the selected state 
 map for a specific year.
 ```{r}
