@@ -21,7 +21,7 @@ library(farsRP)
 
 # Extracting FARS Information
 Before using the functions, the FARS file should be installed in the working 
-directory in the format accident_YEAR.csv.bz2, where YEAR is the correponding 
+directory in the format accident_YEAR.csv.bz2, where YEAR is the corresponding 
 year. The data can be found in the [NHTSA website](https://www.nhtsa.gov/Data/Fatality-Analysis-Reporting-System-(FARS)).
 
 ## Summarizing data from many years
